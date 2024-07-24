@@ -1,0 +1,17 @@
+{
+    "welcome": {
+        "part1": "Développez vos ",
+        "part2": "soft skills"
+    },
+    "button": {
+        "next": "Suivant",
+        "start": "Commencer"
+    },
+    "chooseLang": "Veuillez choisir une langue",
+    "quiz": {
+        "question1": {
+            "question": "1. Après avoir décroché des offres d'emploi de 2 entreprises suite à vos entretiens, comment décidez-vous quelle opportunité choisir ?",
+            "answers": "c’est généralement une formalité, vous ne réfléchissez pas trop longtemps et êtes prêt à assumer votre choix.|vous prenez un temps de réflexion relativement long.|vous demandez la plupart du temps de l’aide ou un avis extérieur.|vous avez de grandes difficultés à décider, au point parfois de louper une occasion."
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "welcome": {
+        "part1": "Develop your",
+        "part2": "soft skills"
+    },
+    "button": {
+        "next": "Next",
+        "start": "Start"
+    },
+    "chooseLang": "Please choose a language",
+    "quiz": {
+        "question1": {
+            "question": "1. After receiving job offers from two different companies following your interviews, how do you decide which opportunity to choose ?",
+            "answers": "It's usually a formality; you don't think too long and are ready to stand by your choice.|You take a relatively long time to reflect.|You often seek help or an external opinion.|You have significant difficulty deciding, sometimes missing out on opportunities."
+        }
+    }
+}
