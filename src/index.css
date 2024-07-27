@@ -25,3 +25,14 @@ input[type="radio"] {
     @apply bg-red-500 bg-center flex flex-col items-center pt-12 px-6 font-titillium-web text-dark-blue;
   }
 }
+
+@layer utilities {
+  /* customize scrollbar */
+  .dark-blue-scrollbar::-webkit-scrollbar {
+    @apply w-[3px] bg-transparent;
+  }
+
+  .dark-blue-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-dark-blue;
+  }
+}

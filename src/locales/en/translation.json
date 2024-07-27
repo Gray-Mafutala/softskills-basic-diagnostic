@@ -10,8 +10,168 @@
     "chooseLang": "Please choose a language",
     "quiz": {
         "question1": {
-            "question": "1. After receiving job offers from two different companies following your interviews, how do you decide which opportunity to choose ?",
-            "answers": "It's usually a formality; you don't think too long and are ready to stand by your choice.|You take a relatively long time to reflect.|You often seek help or an external opinion.|You have significant difficulty deciding, sometimes missing out on opportunities."
+            "question": "After receiving job offers from two companies following your interviews, how do you decide which opportunity to choose?",
+            "answers": "It's usually a formality; you don't think too long and are ready to stand by your choice. <score: 8>|You take a relatively long time to reflect. <score: 6>|You often seek help or an external opinion. <score: 4>|You have significant difficulty deciding, sometimes missing out on opportunities. <score: 2>",
+            "comments": "this answer shows confidence and an ability to make decisions quickly, which is positive in many contexts|this answer shows a more cautious and thoughtful approach, which is also good but can sometimes slow down the decision-making process|this answer indicates a certain dependence on others' opinions, which can be useful but shows less autonomy in decision-making|this answer shows significant difficulty in making decisions, which can be an obstacle in many professional contexts",
+            "softskill": "decision-making"
+        },
+        "question2": {
+            "question": "You are in charge of choosing a supplier for your company. You decide to:",
+            "answers": "make a quick decision based on your past experience with a particular supplier. <score: 8>|carefully compare offers from several suppliers before making a choice. <score: 6>|ask for opinions from your colleagues or superiors before deciding. <score: 4>|hesitate for a long time, delaying the contract signing. <score: 2>",
+            "comments": "this answer shows that you are confident and decisive in your choices, which is important for business speed|this answer shows that you are meticulous and prefer to have all the information before making a decision|this answer shows that you value others' opinions and prefer a collaborative approach|this answer shows significant hesitation, which can be a hindrance in situations where a quick decision is needed",
+            "softskill": "decision-making"
+        },
+        "question3": {
+            "question": "You are organizing a company event and need to choose a venue. You:",
+            "answers": "quickly choose a venue you know well. <score: 8>|do thorough research and visit several venues before deciding. <score: 6>|ask for advice from a colleague or friend with experience in event planning. <score: 4>|hesitate a lot and end up choosing at the last minute. <score: 2>",
+            "comments": "this answer shows great confidence in your instincts and an ability to make quick decisions|this answer shows that you are very thoughtful and prefer to have all the information before making a decision|this answer shows that you prefer to rely on expert advice or close friends for decision-making|this answer shows that you are easily overwhelmed by too many options, which can delay decision-making",
+            "softskill": "decision-making"
+        },
+        "question4": {
+            "question": "Whether for an interview or a presentation, speaking in public for you is:",
+            "answers": "a real pleasure, no need for preparation, you like to improvise. <score: 8>|a challenge you're ready to take on but requires some preparation. <score: 6>|quite complicated, you've always been a bit shy speaking in public. <score: 4>|really paralyzing, you might not sleep the night before. <score: 2>",
+            "comments": "this answer shows that you are very comfortable in public and confident in your ability to improvise|this answer shows that you are ready to take on challenges but recognize the importance of preparation|this answer indicates that you have difficulty speaking in public, which can be an obstacle in some professional contexts|this answer shows significant anxiety about speaking in public, which can seriously affect your performance",
+            "softskill": "communication"
+        },
+        "question5": {
+            "question": "During a team meeting, you have to present an idea you care about. You:",
+            "answers": "explain your idea with enthusiasm and clarity, without hesitation. <score: 8>|present your idea confidently, but with some notes prepared in advance. <score: 6>|talk about your idea, but your nervousness makes you stumble over a few words. <score: 4>|doubt yourself and struggle to clearly express your idea. <score: 2>",
+            "comments": "this answer shows great ease and passion in communicating your ideas|this answer shows good preparation and moderate confidence in your presentation skills|this answer indicates that your nervousness affects your presentation, although you can still communicate your ideas|this answer shows significant difficulty in expressing your ideas clearly due to doubts and anxiety",
+            "softskill": "communication"
+        },
+        "question6": {
+            "question": "You need to give constructive feedback to a colleague about their work. You:",
+            "answers": "do it with tact and empathy, highlighting positives and suggesting improvements. <score: 8>|prepare by thinking carefully about the right words to use and give your feedback. <score: 6>|find it difficult and tend to avoid such conversations. <score: 4>|are so worried about your colleague's reaction that you say nothing. <score: 2>",
+            "comments": "this answer shows excellent ability to give constructive and kind feedback|this answer shows thoughtful preparation and a moderate approach to feedback|this answer indicates difficulty in giving feedback, which can hinder team communication|this answer shows significant anxiety about giving feedback, to the point of choosing to say nothing",
+            "softskill": "communication"
+        },
+        "question7": {
+            "question": "Your colleagues are debating a current event and disagree. To position yourself, you:",
+            "answers": "inform yourself using sources whose reliability you have verified. <score: 8>|take a moment to reflect to find a way to present your point of view without hurting anyone. <score: 6>|say as little as possible. The less people know about your opinions, the better. <score: 4>|side with the opinion of the person who seems most qualified. <score: 2>",
+            "comments": "this answer shows excellent ability to research reliable information and take an informed position|this answer shows a thoughtful and sensitive approach in presenting your point of view|this answer indicates reluctance to share your opinions, which can limit discussion|this answer shows a tendency to follow others' opinions rather than formulating your own"
+        },
+        "question8": {
+            "question": "You need to analyze complex data for a project. You:",
+            "answers": "dive into the details, checking each source and cross-referencing information. <score: 8>|take the time to understand the big picture before delving into details. <score: 6>|trust the summaries made by your colleagues to save time. <score: 4>|find it so difficult that you prefer to delegate this task. <score: 2>",
+            "comments": "this answer shows exemplary rigor and attention to detail in data analysis|this answer shows a balanced approach between overview and details|this answer indicates dependence on others for summaries, which can reduce your in-depth understanding|this answer shows great difficulty with analyzing complex data, preferring to delegate"
+        },
+        "question9": {
+            "question": "A new technological tool is introduced to your team. You:",
+            "answers": "study it in depth to understand its advantages and disadvantages before adopting it. <score: 8>|try to understand its main features to use it effectively. <score: 6>|wait to see how others use it before trying it yourself. <score: 4>|avoid using it as much as possible because you prefer traditional methods. <score: 2>",
+            "comments": "this answer shows an ability to critically evaluate new technologies before adopting them|this answer shows a willingness to learn the main features for effective use|this answer indicates a cautious and dependent approach to evaluating new technologies|this answer shows reluctance to adopt new technologies, preferring established methods"
+        },
+        "question10": {
+            "question": "Creativity is for you:",
+            "answers": "a skill that can be developed daily and applied to a wide range of jobs. <score: 8>|a skill used only for specific jobs. <score: 6>|a skill reserved for artists. <score: 4>|an assembly of already existing ideas. <score: 2>",
+            "comments": "this answer shows an understanding of creativity as a versatile and developable skill|this answer shows a more limited view of creativity, useful only for certain jobs|this answer restricts creativity to artists, which is a very limited view|this answer shows a perception of creativity as merely a combination of existing ideas, lacking originality",
+            "softskill": "creativity"
+        },
+        "question11": {
+            "question": "When faced with a complex problem at work, you:",
+            "answers": "seek innovative solutions by thinking outside the box. <score: 8>|adopt a methodical approach and follow established procedures. <score: 6>|consult your colleagues for ideas, preferring not to take risks alone. <score: 4>|avoid unconventional solutions, fearing they might not work. <score: 2>",
+            "comments": "this answer shows a strong ability to think creatively and find innovative solutions|this answer shows a methodical approach that can be effective but lacks creativity|this answer indicates a dependence on others' ideas, showing some caution|this answer shows a reluctance to adopt creative solutions, preferring the safety of proven methods",
+            "softskill": "creativity"
+        },
+        "question12": {
+            "question": "For you, to innovate means:",
+            "answers": "exploring new ideas without fearing failure. <score: 8>|gradually improving existing ideas. <score: 6>|applying proven ideas in a slightly different way. <score: 4>|avoiding risks and following current trends. <score: 2>",
+            "comments": "this answer shows a great openness to innovation and risk-taking|this answer shows a more gradual approach to innovation, without major disruptions|this answer indicates a cautious use of innovation, staying close to existing ideas|this answer shows a reluctance to innovate, preferring to follow current trends",
+            "softskill": "creativity"
+        },
+        "question13": {
+            "question": "When you're asked to collaborate with one or more people:",
+            "answers": "it doesn’t bother you at all, you love exchanging ideas and co-creating projects with others. You dive in without much hesitation. <score: 8>|you tend to research the people you will be collaborating with. Based on experience, you prefer to avoid unpleasant surprises. <score: 6>|the idea of collaborating stresses you out, and you hesitate strongly. <score: 4>|you try to avoid the collaboration. <score: 2>",
+            "comments": "This response shows great enthusiasm for collaboration and openness to exchanges.|This response shows caution and a desire to properly prepare for collaborations.|This response indicates some anxiety about collaboration, which may impact teamwork.|This response shows reluctance towards collaboration, which can hinder team work.",
+            "softskill": "collaboration"
+        },
+        "question14": {
+            "question": "When working in a group, you:",
+            "answers": "quickly take initiative and guide others towards the goals. <score: 8>|ensure that everyone has a say and work together towards a common solution. <score: 6>|prefer to observe at first and only get involved once you understand the group well. <score: 4>|wait for others to make the important decisions and just do your part without much involvement. <score: 2>",
+            "comments": "This response shows strong leadership and proactive engagement in group work.|This response shows good teamwork skills and a focus on collaboration.|This response indicates a more reserved approach, with gradual involvement in the group.|This response shows a tendency to stay in the background and avoid taking responsibilities in the group.",
+            "softskill": "collaboration"
+        },
+        "question15": {
+            "question": "In case of disagreement with a team member, you:",
+            "answers": "clearly express your point of view and seek to find a compromise. <score: 8>|carefully listen to the other person's arguments and try to understand their point of view. <score: 6>|avoid conflict by accepting others' ideas even if you don’t agree. <score: 4>|stick to your position without attempting to resolve the conflict. <score: 2>",
+            "comments": "This response shows a good ability to resolve conflicts and find balanced solutions.|This response shows a willingness to listen and understand, which is essential for effective collaboration.|This response indicates a tendency to avoid conflicts, which can hinder effective problem resolution.|This response shows an inability to manage conflicts, which can be problematic in a collaborative work environment.",
+            "softskill": "collaboration"
+        },
+        "question16": {
+            "question": "A new colleague arrives in your team. How do you react?",
+            "answers": "You go directly to them and explain the team’s functioning and your role. <score: 8>|You let them settle in and offer your help and advice. <score: 6>|You greet them and wait for them to come to you with questions. <score: 4>|You continue with your usual work without being disturbed. <score: 2>",
+            "comments": "This response shows a proactive initiative to integrate the new colleague and facilitate their onboarding.|This response shows a supportive and available attitude, while respecting the new colleague's adjustment time.|This response indicates a more passive approach, waiting for the new colleague to reach out.|This response shows a lack of interest in integrating the new colleague, which may affect team spirit.",
+            "softskill": "service-orientation"
+        },
+        "question17": {
+            "question": "When you notice a colleague struggling with a task, you:",
+            "answers": "Immediately offer your help to solve the problem. <score: 8>|Ask if they need help and offer to assist with the task. <score: 6>|Make a discreet comment, leaving it up to them to ask for help if they wish. <score: 4>|Continue with your work without intervening, even if you see they are struggling. <score: 2>",
+            "comments": "This response shows a strong commitment to helping others and solving problems proactively.|This response shows a supportive attitude, with a conditional offer of help.|This response indicates a more reserved approach, letting the colleague ask for help if needed.|This response shows a lack of engagement in supporting colleagues, which may affect teamwork.",
+            "softskill": "service-orientation"
+        },
+        "question18": {
+            "question": "When a client expresses a complaint, you:",
+            "answers": "Respond immediately and seek a satisfactory solution for the client. <score: 8>|Listen carefully and promise to forward the complaint to the relevant department. <score: 6>|Delegate handling of the complaint to a more experienced colleague. <score: 4>|Ignore the complaint if it seems minor or unjustified. <score: 2>",
+            "comments": "This response shows a proactive and responsive approach to solving client problems.|This response shows a responsible attitude, with the complaint being handled through appropriate channels.|This response indicates a tendency to delegate problems, which may show a lack of personal involvement.|This response shows a lack of attention to client needs, which may harm client satisfaction and loyalty.",
+            "softskill": "service-orientation"
+        },
+        "question19": {
+            "question": "When you face a situation that makes you angry or scared, you tend to:",
+            "answers": "Submit to the emotion and let it take control; <score: 2>|Take a moment to breathe and gain perspective on the situation to manage the emotion; <score: 8>|Attempt to ignore the emotion by acting as if it's not there; <score: 4>|Be pessimistic and hold a grudge against others for a while. <score: 2>",
+            "comments": "This response shows difficulty in managing emotions, which can affect decision-making and interpersonal relationships.|This response indicates good emotional management by taking a moment to gain perspective and handle the situation.|This response shows a tendency to ignore emotions, which may result in unresolved issues.|This response indicates difficulty managing emotions with a tendency to blame others and become pessimistic.",
+            "softskill": "emotional-intelligence"
+        },
+        "question20": {
+            "question": "When faced with constructive criticism, you tend to:",
+            "answers": "Welcome the feedback openly and seek to learn from it. <score: 8>|Reflect on the feedback but feel a bit defensive. <score: 6>|Feel personally attacked and take time to recover from the criticism. <score: 4>|Reject the feedback and ignore it. <score: 2>",
+            "comments": "This response shows a great ability to accept and use criticism for improvement.|This response shows openness to feedback, though the response might be somewhat defensive.|This response indicates difficulty accepting criticism, which can impact growth and development.|This response shows a tendency to dismiss feedback, potentially limiting personal and professional growth.",
+            "softskill": "emotional-intelligence"
+        },
+        "question21": {
+            "question": "When you are under pressure, you prefer to:",
+            "answers": "Express your feelings and seek support from colleagues. <score: 8>|Take breaks to manage stress and maintain performance. <score: 6>|Do your best to mask the stress and keep working. <score: 4>|Isolate yourself and focus solely on the task at hand. <score: 2>",
+            "comments": "This response shows good stress management by seeking support and expressing emotions.|This response indicates a proactive approach to managing stress through breaks.|This response shows a tendency to hide stress, which can affect work quality and well-being.|This response indicates a tendency to isolate under pressure, which can harm collaboration and personal well-being.",
+            "softskill": "emotional-intelligence"
+        },
+        "question22": {
+            "question": "You think it is possible to learn:",
+            "answers": "from every life situation you go through, whether it is a failure, a success, or any obstacle that comes your way; <score: 8>|mainly during youth, at school, with teachers; <score: 4>|much better when you are alone; <score: 6>|by exchanging with others. <score: 8>",
+            "comments": "This response shows a great openness to continuous learning and an ability to learn from all experiences.|This response indicates a more traditional view of learning, focused on formal education.|This response shows a preference for autonomous learning, which can be effective but sometimes limited.|This response shows a recognition of the importance of collaborative learning and exchanges.",
+            "softskill": "learning-ability"
+        },
+        "question23": {
+            "question": "When a new technology or work method appears in your field, you:",
+            "answers": "rush to learn it and integrate it into your work. <score: 8>|take the time to evaluate its usefulness before deciding to learn it. <score: 6>|wait to see if it becomes a standard before learning it. <score: 4>|prefer to continue with the methods you know well. <score: 2>",
+            "comments": "This response shows a high adaptability and willingness to continuous learning.|This response indicates a thoughtful approach, balancing innovation and efficiency.|This response shows a cautious attitude, which can sometimes delay the adoption of new skills.|This response indicates a resistance to change, limiting development potential.",
+            "softskill": "learning-ability"
+        },
+        "question24": {
+            "question": "When you face a difficulty in your work, you:",
+            "answers": "immediately look for resources and training to overcome the difficulty. <score: 8>|take the time to think and experiment with solutions on your own. <score: 6>|ask a colleague or a supervisor for help. <score: 4>|try to bypass the difficulty without really solving it. <score: 2>",
+            "comments": "This response shows proactivity and a willingness to learn to solve problems.|This response indicates an ability to analyze and solve problems independently.|This response shows a recognition of the importance of collaboration to overcome difficulties.|This response indicates a tendency to avoid problems rather than solving them constructively.",
+            "softskill": "learning-ability"
+        },
+        "question25": {
+            "question": "In terms of organization, you tend to:",
+            "answers": "be very well organized; <score: 8>|have difficulty managing your priorities; <score: 4>|want to do several things at the same time; <score: 6>|panic quickly. <score: 2>",
+            "comments": "This response shows excellent organizational and time management skills.|This response indicates difficulty in prioritizing tasks, which can lead to delays.|This response shows a tendency to spread yourself too thin, which can affect efficiency.|This response indicates a stress reaction to organization, which can hinder productivity.",
+            "softskill": "organization"
+        },
+        "question26": {
+            "question": "When you have multiple projects to manage, you:",
+            "answers": "create a detailed plan and stick to it. <score: 8>|take each day as it comes and manage priorities as they arise. <score: 6>|ask for help organizing your work. <score: 4>|tend to feel overwhelmed and procrastinate. <score: 2>",
+            "comments": "This response shows excellent planning and organizational skills.|This response indicates a flexible approach, which can sometimes lack structure.|This response shows recognition of the importance of external help for organization.|This response indicates difficulty managing stress related to organization, which can affect productivity.",
+            "softskill": "organization"
+        },
+        "question27": {
+            "question": "When you have an important deadline to meet, you:",
+            "answers": "start working well in advance to make sure you finish on time. <score: 8>|make a schedule and try to stick to it. <score: 6>|often work at the last minute because you feel more productive under pressure. <score: 4>|tend to be late despite your efforts to organize yourself. <score: 2>",
+            "comments": "This response shows the ability to anticipate and manage deadlines effectively.|This response indicates an ability to plan, but with some flexibility.|This response shows a tendency to procrastinate, but with productivity under pressure.|This response indicates difficulty meeting deadlines, which can hinder performance.",
+            "softskill": "organization"
         }
-    }
+    },
+    "endResults": {
+        "title": "Results",
+        "overallScore": "Overall score"
+    },
+    "selectAnswerAlert": "Please select an answer before moving to the next question."
 }

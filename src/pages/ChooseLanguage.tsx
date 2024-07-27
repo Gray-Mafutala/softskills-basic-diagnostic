@@ -9,8 +9,8 @@ const ChooseLanguage = () => {
     <main className="flex flex-col">
       <DisplayFrame
         linkNextBtn="/welcome"
-        innerWrapperStyles="flex flex-col gap-y-2"
-        >
+        innerWrapperStyles="flex flex-col gap-y-2 w-[360px]"
+      >
         <h2 className="text-lg font-medium"> {t("chooseLang")}</h2>
         <LanguageSelector />
       </DisplayFrame>

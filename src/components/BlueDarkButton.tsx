@@ -1,25 +1,31 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-type ButtonNextProps = {
-  link: string;
+type BlueDarkButtonProps = {
+  link?: string;
   addStyles?: string;
-  caption?: string;
+  onClick?: () => void;
+  btnType?: "prev" | "next" | "start" | "end-feedback";
 };
 
-const ButtonNext = ({
-  link,
-  addStyles,
-  caption = "button.next",
-}: ButtonNextProps) => {
+const BlueDarkButton = ({
+  link = "",
+  addStyles = "",
+  onClick,
+  btnType = "next",
+}: BlueDarkButtonProps) => {
   const { t } = useTranslation();
   return (
     <Link
       to={link}
+      onClick={onClick}
       className={`bg-dark-blue rounded-lg px-4 py-2 text-white font-semibold flex items-center gap-x-4 ${addStyles}`}
     >
-      {t(`${caption}`)}
-      <span>
+      {btnType === "prev" && ""}
+      {btnType === "next" && t("button.next")}
+      {btnType === "start" && t("button.start")}
+
+      <span className={btnType === "prev" ? "-order-1 rotate-180" : ""}>
         <svg
           viewBox="0 0 24 24"
           strokeLinecap="round"
@@ -34,4 +40,4 @@ const ButtonNext = ({
   );
 };
 
-export default ButtonNext;
+export default BlueDarkButton;
