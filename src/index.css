@@ -33,6 +33,6 @@ input[type="radio"] {
   }
 
   .dark-blue-scrollbar::-webkit-scrollbar-thumb {
-    @apply bg-dark-blue;
+    @apply bg-dark-blue/50;
   }
 }

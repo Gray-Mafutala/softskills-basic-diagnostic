@@ -1,11 +1,14 @@
 import { useTranslation } from "react-i18next";
 import DisplayFrame from "../components/DisplayFrame";
+import TopBar from "../components/TopBar";
 
 const Welcome = () => {
   const { t } = useTranslation();
 
   return (
-    <main>
+    <main className="flex flex-col items-center gap-y-9">
+      <TopBar tab="welcome" />
+
       <DisplayFrame
         linkNextBtn="/quiz"
         linkPrevBtn="/"
