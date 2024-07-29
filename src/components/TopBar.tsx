@@ -6,44 +6,6 @@ type TopBarProps = {
 const TOTAL_QUESTIONS = 27;
 
 const TopBar = ({ tab, activeQuestion = 0 }: TopBarProps) => {
-  const getQuestionsQuare = () => {
-    const questionsQuare = [];
-    for (let i = 0; i < TOTAL_QUESTIONS; i++) {
-      if (tab === "chooseLanguage" || tab === "welcome") {
-        questionsQuare.push(
-          <span
-            className={`w-5 h-5 bg-[#d8d8d8] border-b-[3px]
-          border-b-[#00000040] border-r border-[#00000040] border-t-0`}
-          > {i+1} </span>
-        );
-      } else if (tab === "quiz" && i === activeQuestion) {
-        questionsQuare.push(
-          <span
-            className={`w-5 h-5 bg-[#d8d8d8] border-b-[3px]
-            border-b-[#00000040] border-r border-[#00000040] border-t-0
-            flex justify-center items-center`}
-          >
-            <span className="w-2 h-2 bg-dark-blue rounded-full"> {i+1}  </span>
-          </span>
-        );
-      } else if (tab === "quiz" && i + 1 < activeQuestion) {
-        questionsQuare.push(
-          <span
-            className={`w-5 h-5 bg-dark-blue border-b-[3px] border-[#00000040] border-r border-t-0`}
-          > {i+1} </span>
-        );
-      } else if (tab === "quiz" && i >= activeQuestion) {
-        questionsQuare.push(
-          <span
-            className={`w-5 h-5 bg-[#d8d8d8] border-b-[3px] border-[#00000040] border-r border-t-0`}
-          > {i+1} </span>
-        );
-      }
-    }
-
-    return questionsQuare;
-  };
-
   return (
     <header className="flex items-center">
       <a href="/" className="bg-dark-blue p-2 rounded-full text-white mr-3">
@@ -61,7 +23,41 @@ const TopBar = ({ tab, activeQuestion = 0 }: TopBarProps) => {
       </a>
 
       {/* list of square */}
-      {getQuestionsQuare()}
+      {Array.from({ length: TOTAL_QUESTIONS }, (_, i) => {
+        if (tab === "chooseLanguage" || tab === "welcome") {
+          return (
+            <span
+              key={i}
+              className={`w-5 h-5 bg-[#d8d8d8] border-b-[3px] border-b-[#00000040] border-r
+            border-[#00000040] border-t-0`}
+            ></span>
+          );
+        } else if (tab === "quiz" && i === activeQuestion - 1) {
+          return (
+            <span
+              key={i}
+              className={`w-5 h-5 bg-[#d8d8d8] border-b-[3px] border-b-[#00000040] border-r
+              border-[#00000040] border-t-0 flex justify-center items-center`}
+            >
+              <span className="w-2 h-2 bg-dark-blue rounded-full"></span>
+            </span>
+          );
+        } else if (tab === "quiz" && i < activeQuestion) {
+          return (
+            <span
+              key={i}
+              className={`w-5 h-5 bg-dark-blue border-b-[3px] border-[#00000040] border-r border-t-0`}
+            ></span>
+          );
+        } else if (tab === "quiz" && i > activeQuestion) {
+          return (
+            <span
+              key={i}
+              className={`w-5 h-5 bg-[#d8d8d8] border-b-[3px] border-[#00000040] border-r border-t-0`}
+            ></span>
+          );
+        }
+      })}
 
       <span className="bg-dark-blue p-2 rounded-full text-white ml-3">
         <svg
