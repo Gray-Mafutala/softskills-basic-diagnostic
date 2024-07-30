@@ -24,7 +24,7 @@ const DisplayFrame = ({
 }: DisplayFrameProps) => {
   return (
     <div
-      className="relative max-w-[520px] min-w-[420px] min-h-[360px] bg-yellow-400 shadow-[#fff_-6px_-6px_0px_0px,_#19274f_-12px_-12px_0px_0px]
+      className="relative max-w-[600px] min-w-[420px] min-h-[360px] bg-yellow-400 shadow-[#fff_-6px_-6px_0px_0px,_#19274f_-12px_-12px_0px_0px]
       rounded-xl px-8 py-12 flex flex-col gap-y-4"
     >
       {/* top rectangles */}

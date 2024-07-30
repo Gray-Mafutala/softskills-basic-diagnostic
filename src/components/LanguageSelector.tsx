@@ -12,7 +12,7 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div className="relative flex items-center">
+    <div className="relative flex items-center group">
       <select
         defaultValue={selectedLanguage}
         onChange={chooseLanguage}
@@ -27,7 +27,7 @@ const LanguageSelector = () => {
         </option>
       </select>
 
-      <span className="absolute right-2">
+      <span className="absolute right-2 group-hover:rotate-180 duration-300">
         <svg
           viewBox="0 0 24 24"
           strokeLinecap="round"

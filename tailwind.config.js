@@ -9,12 +9,12 @@ export default {
       },
 
       backgroundImage: {
-        "squared-sheet": 'url("./src/assets/images/squared-sheet.png")',
+        "gradient-violet": 'url("./src/assets/images/bg-gradient-violet.png")',
+        "squared-sheet": 'url("./src/assets/images/bg-squared-sheet.png")',
       },
 
       fontFamily: {
-        cardo: ["Cardo", "serif"],
-        "titillium-web": ["Titillium Web", "sans-serif"],
+        "m-plus-code-latin": ["M PLUS Code Latin", "monospace"],
       },
     },
   },

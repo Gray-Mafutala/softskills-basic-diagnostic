@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -22,7 +21,7 @@ input[type="radio"] {
 
 @layer base {
   body {
-    @apply bg-red-500 bg-center flex flex-col items-center pt-12 px-6 font-titillium-web text-dark-blue;
+    @apply bg-squared-sheet bg-center bg-no-repeat bg-cover h-screen flex flex-col items-center pt-6 px-6 font-m-plus-code-latin text-dark-blue;
   }
 }
 

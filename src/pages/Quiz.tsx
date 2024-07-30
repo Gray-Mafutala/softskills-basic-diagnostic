@@ -91,33 +91,32 @@ const Quiz = () => {
 
   return (
     <main className="flex flex-col items-center gap-y-9">
-      <TopBar
-        tab="quiz"
-        activeQuestion={indexCurrentQuestion}
-      />
+      <TopBar tab="quiz" activeQuestion={indexCurrentQuestion} />
 
       {indexCurrentQuestion <= TOTAL_QUESTIONS ? (
         <DisplayFrame
-          linkNextBtn={indexCurrentQuestion === TOTAL_QUESTIONS ? "/" : ""}
+          linkNextBtn="" //{indexCurrentQuestion === TOTAL_QUESTIONS ? "/" : ""}
           linkPrevBtn={indexCurrentQuestion === 1 ? "/welcome" : ""}
-          innerWrapperStyles="relative flex flex-col gap-y-4 h-[280px] w-[460px]"
+          innerWrapperStyles="relative flex flex-col  h-[280px] w-[480px] pt-[3px] px-[3px]"
           nextBtnClick={goToNextQuestion}
           showPrevBtn={true}
           prevBtnClick={prevBtnClick}
         >
           {/* question */}
-          <h1 className="text-lg/tight font-semibold">
-            {indexCurrentQuestion +
-              ". " +
-              t(
-                `quiz.question${
-                  shuffledQuestionList[indexCurrentQuestion - 1]
-                }.question`
-              )}
+          <h1
+            className="text-lg/tight font-semibold flex items-start gap-x-2 sticky top-0 bg-slate-100
+            p-6 pb-4 z-10"
+          >
+            <span>{indexCurrentQuestion}.</span>
+            {t(
+              `quiz.question${
+                shuffledQuestionList[indexCurrentQuestion - 1]
+              }.question`
+            )}
           </h1>
 
           {/* answers */}
-          <div className="flex flex-col gap-y-3">
+          <div className="flex flex-col gap-y-3 px-6">
             {t(
               `quiz.question${
                 shuffledQuestionList[indexCurrentQuestion - 1]

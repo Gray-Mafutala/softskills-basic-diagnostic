@@ -16,84 +16,84 @@
             "softskill": "decision-making"
         },
         "question2": {
-            "question": "Vous êtes en charge de choisir un fournisseur pour votre entreprise. Vous décidez de :",
+            "question": "Vous êtes en charge de choisir un fournisseur pour votre entreprise. Vous décidez de:",
             "answers": "prendre une décision rapide en vous basant sur votre expérience passée avec un fournisseur particulier. <score: 8>|comparer minutieusement les offres de plusieurs fournisseurs avant de faire un choix. <score: 6>|demander l'avis de vos collègues ou supérieurs avant de prendre une décision. <score: 4>|hésiter longtemps, ce qui retarde la signature du contrat. <score: 2>",
             "comments": "cette réponse montre que vous êtes confiant et décisif dans vos choix, ce qui est important pour la rapidité des affaires|cette réponse montre que vous êtes méticuleux et préférez avoir toutes les informations avant de prendre une décision|cette réponse montre que vous valorisez les opinions des autres et préférez une approche collaborative|cette réponse montre une hésitation importante, ce qui peut être un frein dans des situations où une décision rapide est nécessaire",
             "softskill": "decision-making"
         },
         "question3": {
-            "question": "Vous organisez un événement d'entreprise et devez choisir un lieu. Vous :",
+            "question": "Vous organisez un événement d'entreprise et devez choisir un lieu. Vous:",
             "answers": "choisissez rapidement un lieu que vous connaissez bien. <score: 8>|faites des recherches approfondies et visitez plusieurs lieux avant de décider. <score: 6>|demandez conseil à un collègue ou un ami qui a de l'expérience dans l'organisation d'événements. <score: 4>|hésitez beaucoup et finissez par choisir à la dernière minute. <score: 2>",
             "comments": "cette réponse montre une grande confiance en vos instincts et une capacité à prendre des décisions rapides|cette réponse montre que vous êtes très réfléchi et préférez avoir toutes les informations avant de prendre une décision|cette réponse montre que vous préférez vous appuyer sur les conseils d'experts ou de proches pour prendre une décision|cette réponse montre que vous êtes facilement submergé par trop d'options, ce qui peut retarder la prise de décision",
             "softskill": "decision-making"
         },
         "question4": {
-            "question": "Que ce soit pour passer un entretien ou réaliser une présentation, prendre la parole est pour vous :",
+            "question": "Que ce soit pour passer un entretien ou réaliser une présentation, prendre la parole est pour vous:",
             "answers": "un réel plaisir, pas besoin de préparation, vous aimez improviser. <score: 8>|un défi que vous êtes prêt à relever mais qui nécessite une certaine préparation. <score: 6>|assez compliqué, vous avez toujours été un peu timide à l’oral. <score: 4>|vraiment paralysant, vous risquez de ne pas dormir la veille de l’échéance. <score: 2>",
             "comments": "cette réponse montre que vous êtes très à l'aise en public et que vous avez confiance en votre capacité à improviser|cette réponse montre que vous êtes prêt à relever des défis mais que vous reconnaissez l'importance de la préparation|cette réponse indique que vous avez des difficultés à vous exprimer en public, ce qui peut être un obstacle dans certains contextes professionnels|cette réponse montre une anxiété significative à l'idée de parler en public, ce qui peut sérieusement affecter votre performance"
         },
         "question5": {
-            "question": "Lors d'une réunion d'équipe, vous devez présenter une idée qui vous tient à cœur. Vous :",
+            "question": "Lors d'une réunion d'équipe, vous devez présenter une idée qui vous tient à cœur. Vous:",
             "answers": "expliquez votre idée avec enthousiasme et clarté, sans hésitation. <score: 8>|présentez votre idée avec confiance, mais avec quelques notes préparées à l'avance. <score: 6>|parlez de votre idée, mais votre nervosité vous fait trébucher sur quelques mots. <score: 4>|doutez de vous et avez du mal à exprimer clairement votre idée. <score: 2>",
             "comments": "cette réponse montre une grande aisance et passion dans la communication de vos idées|cette réponse montre une bonne préparation et une confiance modérée dans vos capacités de présentation|cette réponse indique que votre nervosité affecte votre présentation, bien que vous soyez capable de communiquer vos idées|cette réponse montre une grande difficulté à exprimer vos idées clairement en raison de doutes et d'anxiété",
             "softskill": "communication"
         },
         "question6": {
-            "question": "Vous devez donner un feedback constructif à un collègue sur son travail. Vous :",
+            "question": "Vous devez donner un feedback constructif à un collègue sur son travail. Vous:",
             "answers": "le faites avec tact et empathie, en soulignant les points positifs et en suggérant des améliorations. <score: 8>|vous préparez en réfléchissant aux mots justes pour ne pas blesser, et donnez votre feedback. <score: 6>|trouvez cela difficile et avez tendance à éviter ce genre de conversation. <score: 4>|êtes tellement inquiet de la réaction de votre collègue que vous ne dites rien. <score: 2>",
             "comments": "cette réponse montre une excellente capacité à donner des feedbacks constructifs et bienveillants|cette réponse montre une préparation réfléchie et une approche modérée dans le feedback|cette réponse indique une difficulté à donner des feedbacks, ce qui peut nuire à la communication d'équipe|cette réponse montre une grande anxiété à l'idée de donner des feedbacks, au point de choisir de ne rien dire",
             "softskill": "communication"
         },
         "question7": {
-            "question": "Vos collègues débattent sur un fait d'actualité et ne sont pas d'accord. Pour vous positionner :",
+            "question": "Vos collègues débattent sur un fait d'actualité et ne sont pas d'accord. Pour vous positionner:",
             "answers": "vous vous informez en utilisant des sources dont vous aurez vérifié la fiabilité. <score: 8>|vous marquez un temps de réflexion pour trouver une manière de présenter votre point de vue qui ne blessera personne. <score: 6>|vous en dites le moins possible. Moins on en sait sur vos opinions, mieux vous vous portez. <score: 4>|vous rejoignez l'opinion de la personne qui vous semble la plus qualifiée. <score: 2>",
             "comments": "cette réponse montre une excellente capacité à rechercher des informations fiables et à prendre une position éclairée|cette réponse montre une approche réfléchie et sensible dans la présentation de votre point de vue|cette réponse indique une réticence à partager vos opinions, ce qui peut limiter la discussion|cette réponse montre une tendance à suivre les opinions des autres plutôt que de formuler la vôtre",
             "softskill": "critical-mind"
         },
         "question8": {
-            "question": "Vous devez analyser des données complexes pour un projet. Vous :",
+            "question": "Vous devez analyser des données complexes pour un projet. Vous:",
             "answers": "vous plongez dans les détails, en vérifiant chaque source et en croisant les informations. <score: 8>|prenez le temps de comprendre les grandes lignes avant de vous pencher sur les détails. <score: 6>|faites confiance aux résumés faits par vos collègues pour gagner du temps. <score: 4>|trouvez cela tellement difficile que vous préférez déléguer cette tâche. <score: 2>",
             "comments": "cette réponse montre une rigueur et une attention aux détails exemplaires dans l'analyse de données|cette réponse montre une approche équilibrée entre la vue d'ensemble et les détails|cette réponse indique une dépendance aux autres pour les résumés, ce qui peut réduire votre compréhension approfondie|cette réponse montre une grande difficulté avec l'analyse de données complexes, préférant déléguer",
             "softskill": "critical-mind"
         },
         "question9": {
-            "question": "Un nouvel outil technologique est introduit dans votre équipe. Vous :",
+            "question": "Un nouvel outil technologique est introduit dans votre équipe. Vous:",
             "answers": "l'étudiez en profondeur pour comprendre ses avantages et ses inconvénients avant de l'adopter. <score: 8>|essayez de comprendre ses principales fonctionnalités pour l'utiliser efficacement. <score: 6>|attendez de voir comment les autres l'utilisent avant de l'essayer vous-même. <score: 4>|évitez de l'utiliser autant que possible car vous préférez les méthodes traditionnelles. <score: 2>",
             "comments": "cette réponse montre une capacité à évaluer de manière critique les nouvelles technologies avant de les adopter|cette réponse montre une volonté d'apprendre les fonctionnalités principales pour une utilisation efficace|cette réponse indique une approche prudente et dépendante des autres pour évaluer les nouvelles technologies|cette réponse montre une réticence à adopter de nouvelles technologies, préférant les méthodes établies",
             "softskill": "critical-mind"
         },
         "question10": {
-            "question": "La créativité est pour vous :",
+            "question": "La créativité est pour vous:",
             "answers": "une compétence que l'on peut développer au quotidien et appliquer à un grand nombre de métiers. <score: 8>|une compétence qui n'est utilisée que pour des métiers bien ciblés. <score: 6>|une compétence réservée aux artistes. <score: 4>|un assemblage d’idées qui existent déjà. <score: 2>",
             "comments": "cette réponse montre une compréhension de la créativité comme une compétence polyvalente et développable|cette réponse montre une vision plus limitée de la créativité, utile uniquement pour certains métiers|cette réponse restreint la créativité aux seuls artistes, ce qui est une vision très limitée|cette réponse montre une perception de la créativité comme une simple combinaison d'idées existantes, manquant d'originalité",
             "softskill": "creativity"
         },
         "question11": {
-            "question": "Lorsque vous êtes confronté à un problème complexe au travail, vous :",
+            "question": "Lorsque vous êtes confronté à un problème complexe au travail, vous:",
             "answers": "cherchez des solutions innovantes en pensant en dehors des sentiers battus. <score: 8>|adoptez une approche méthodique et suivez les procédures établies. <score: 6>|consultez vos collègues pour des idées, préférant ne pas prendre de risques seul. <score: 4>|évitez les solutions non conventionnelles, craignant qu'elles ne fonctionnent pas. <score: 2>",
             "comments": "cette réponse montre une grande capacité à penser de manière créative et à trouver des solutions innovantes|cette réponse montre une approche méthodique qui peut être efficace mais manque de créativité|cette réponse indique une dépendance aux idées des autres, montrant une certaine prudence|cette réponse montre une réticence à adopter des solutions créatives, préférant la sécurité des méthodes éprouvées",
             "softskill": "creativity"
         },
         "question12": {
-            "question": "Pour vous, innover signifie :",
+            "question": "Pour vous, innover signifie:",
             "answers": "explorer de nouvelles idées sans craindre l'échec. <score: 8>|améliorer progressivement les idées existantes. <score: 6>|appliquer des idées éprouvées de manière légèrement différente. <score: 4>|éviter de prendre des risques et suivre les tendances actuelles. <score: 2>",
             "comments": "cette réponse montre une grande ouverture à l'innovation et à la prise de risques|cette réponse montre une approche plus progressive de l'innovation, sans bouleversements majeurs|cette réponse indique une utilisation prudente de l'innovation, en restant proche des idées existantes|cette réponse montre une réticence à innover, préférant suivre les tendances actuelles",
             "softskill": "creativity"
         },
         "question13": {
-            "question": "Lorsque l’on vous propose de collaborer avec une ou plusieurs personnes :",
+            "question": "Lorsque l’on vous propose de collaborer avec une ou plusieurs personnes:",
             "answers": "cela ne vous pose aucun problème, vous adorez échanger et coconstruire des projets à plusieurs. Vous foncez sans vous poser trop de questions. <score: 8>|vous avez tendance à vous renseigner sur les personnes avec qui vous devez collaborer. Par expérience, vous préférez éviter les mauvaises surprises. <score: 6>|l’idée même de collaborer a tendance à vous stresser, et vous hésitez fortement. <score: 4>|vous tentez d’éviter cette collaboration. <score: 2>",
             "comments": "Cette réponse montre un grand enthousiasme pour la collaboration et une ouverture aux échanges.|Cette réponse montre une prudence et une volonté de bien préparer les collaborations.|Cette réponse indique une certaine anxiété face à la collaboration, ce qui peut affecter le travail en équipe.|Cette réponse montre une réticence à la collaboration, ce qui peut nuire au travail d'équipe.",
             "softskill": "collaboration"
         },
         "question14": {
-            "question": "Lorsque vous devez travailler en groupe, vous :",
+            "question": "Lorsque vous devez travailler en groupe, vous:",
             "answers": "prenez rapidement des initiatives et guidez les autres vers les objectifs. <score: 8>|vous faites en sorte que chacun ait son mot à dire et travaillez ensemble pour une solution commune. <score: 6>|vous préférez observer au début et vous engagez seulement une fois que vous comprenez bien le groupe. <score: 4>|vous attendez que les autres prennent les décisions importantes et vous faites votre part sans trop vous impliquer. <score: 2>",
             "comments": "Cette réponse montre une forte capacité de leadership et une proactivité dans le travail en groupe.|Cette réponse montre une bonne capacité à travailler en équipe et à favoriser la collaboration.|Cette réponse indique une approche plus réservée, avec une implication progressive dans le groupe.|Cette réponse montre une tendance à rester en retrait et à éviter de prendre des responsabilités dans le groupe.",
             "softskill": "collaboration"
         },
         "question15": {
-            "question": "En cas de désaccord avec un membre de l’équipe, vous :",
+            "question": "En cas de désaccord avec un membre de l’équipe, vous:",
             "answers": "exprimez clairement votre point de vue et cherchez à trouver un compromis. <score: 8>|écoutez attentivement les arguments de l’autre personne et essayez de comprendre son point de vue. <score: 6>|évitez le conflit en acceptant les idées des autres même si vous n’êtes pas d’accord. <score: 4>|vous restez sur votre position sans chercher à résoudre le conflit. <score: 2>",
             "comments": "Cette réponse montre une bonne capacité à résoudre les conflits et à trouver des solutions équilibrées.|Cette réponse montre une volonté d’écoute et de compréhension, ce qui est essentiel pour une collaboration efficace.|Cette réponse indique une tendance à éviter les conflits, ce qui peut nuire à une résolution efficace des problèmes.|Cette réponse montre une incapacité à gérer les conflits, ce qui peut être problématique dans un environnement de travail collaboratif.",
             "softskill": "collaboration"
@@ -105,67 +105,67 @@
             "softskill": "service-orientation"
         },
         "question17": {
-            "question": "Lorsque vous remarquez qu'un collègue a du mal avec une tâche, vous :",
+            "question": "Lorsque vous remarquez qu'un collègue a du mal avec une tâche, vous:",
             "answers": "allez immédiatement lui offrir votre aide pour résoudre le problème. <score: 8>|demandez s'il a besoin d'aide et proposez de l'accompagner dans la tâche. <score: 6>|faites une remarque discrète en lui laissant la possibilité de demander de l'aide s'il le souhaite. <score: 4>|continuez votre travail sans intervenir, même si vous voyez qu'il a du mal. <score: 2>",
             "comments": "Cette réponse montre un engagement fort à aider les autres et à résoudre les problèmes de manière proactive.|Cette réponse montre une attitude de soutien, avec une proposition d'aide conditionnelle.|Cette réponse indique une approche plus réservée, laissant la responsabilité de demander de l'aide au collègue.|Cette réponse montre un manque d'engagement à soutenir les collègues, ce qui peut affecter la coopération dans l'équipe.",
             "softskill": "service-orientation"
         },
         "question18": {
-            "question": "Quand un client exprime une plainte, vous :",
+            "question": "Quand un client exprime une plainte, vous:",
             "answers": "répondez immédiatement et cherchez une solution satisfaisante pour le client. <score: 8>|écoutez attentivement et promettez de faire suivre la plainte au service compétent. <score: 6>|déléguez la gestion de la plainte à un collègue plus expérimenté. <score: 4>|ignorez la plainte si elle semble mineure ou non justifiée. <score: 2>",
             "comments": "Cette réponse montre une approche proactive et réactive pour résoudre les problèmes des clients.|Cette réponse montre une attitude de responsabilité, avec une prise en charge du problème par les voies appropriées.|Cette réponse indique une tendance à déléguer les problèmes, ce qui peut montrer un manque d'implication personnelle.|Cette réponse montre un manque d'attention aux besoins des clients, ce qui peut nuire à la satisfaction et à la fidélité des clients.",
             "softskill": "service-orientation"
         },
         "question19": {
-            "question": "Lorsque vous faites face à une situation qui vous met en colère ou vous fait peur, vous avez plutôt tendance à :",
-            "answers": "subir l’émotion et la laisser prendre le contrôle ; <score: 2>|prendre un petit temps pour respirer et prendre un minimum de hauteur sur la situation, afin de gérer l’émotion ; <score: 8>|tenter d’ignorer l’émotion qui vous anime, en agissant comme si elle n’était pas là ; <score: 4>|être pessimiste, en vouloir aux autres pendant un certain temps. <score: 2>",
+            "question": "Lorsque vous faites face à une situation qui vous met en colère ou vous fait peur, vous avez plutôt tendance à:",
+            "answers": "subir l’émotion et la laisser prendre le contrôle. <score: 2>|prendre un petit temps pour respirer et prendre un minimum de hauteur sur la situation, afin de gérer l’émotion. <score: 8>|tenter d’ignorer l’émotion qui vous anime, en agissant comme si elle n’était pas là. <score: 4>|être pessimiste, en vouloir aux autres pendant un certain temps. <score: 2>",
             "comments": "Cette réponse montre une difficulté à gérer les émotions, ce qui peut affecter la prise de décision et les relations interpersonnelles.|Cette réponse indique une bonne gestion des émotions, avec un effort pour prendre du recul et trouver des solutions appropriées.|Cette réponse montre une tendance à ignorer les émotions, ce qui peut entraîner des problèmes non résolus.|Cette réponse indique une difficulté à gérer les émotions, avec une tendance à blâmer les autres et à se laisser envahir par le pessimisme.",
             "softskill": "emotional-intelligence"
         },
         "question20": {
-            "question": "Face à une critique constructive, vous avez tendance à :",
+            "question": "Face à une critique constructive, vous avez tendance à:",
             "answers": "Accueillir la critique avec ouverture et chercher à en tirer des leçons. <score: 8>|Réfléchir à la critique mais vous sentez un peu sur la défensive. <score: 6>|Se sentir personnellement attaqué et mettre du temps à vous remettre de la critique. <score: 4>|Rejeter la critique et ne pas en tenir compte. <score: 2>",
             "comments": "Cette réponse montre une grande capacité à accepter et utiliser les critiques pour s'améliorer.|Cette réponse montre une ouverture à la critique, bien que la réponse puisse parfois être défensive.|Cette réponse indique une difficulté à accepter les critiques, ce qui peut affecter la capacité à progresser.|Cette réponse montre une tendance à ignorer les critiques, ce qui peut limiter la croissance personnelle et professionnelle.",
             "softskill": "emotional-intelligence"
         },
         "question21": {
-            "question": "Lorsque vous êtes sous pression, vous préférez :",
+            "question": "Lorsque vous êtes sous pression, vous préférez:",
             "answers": "Exprimer vos sentiments et chercher du soutien auprès de vos collègues. <score: 8>|Prendre des pauses pour gérer le stress et maintenir votre performance. <score: 6>|Faire de votre mieux pour masquer le stress et continuer à travailler. <score: 4>|Vous isoler et vous concentrer uniquement sur la tâche à accomplir. <score: 2>",
             "comments": "Cette réponse montre une bonne gestion du stress en cherchant du soutien et en exprimant les émotions.|Cette réponse indique une capacité à gérer le stress de manière proactive, en prenant des pauses.|Cette réponse montre une tendance à cacher le stress, ce qui peut affecter la qualité du travail et le bien-être.|Cette réponse indique une tendance à s'isoler sous pression, ce qui peut nuire à la collaboration et au bien-être personnel.",
             "softskill": "emotional-intelligence"
         },
         "question22": {
-            "question": "Vous pensez qu’il est possible d’apprendre :",
-            "answers": "de chaque situation de vie que vous traversez, qu’il s’agisse d’échec, de réussite ou de tout obstacle qui se mettrait en travers de votre route ; <score: 8>|principalement pendant la jeunesse, à l’école, avec les professeurs ; <score: 4>|beaucoup mieux lorsque l’on est seul ; <score: 6>|en échangeant avec les autres. <score: 8>",
+            "question": "Vous pensez qu’il est possible d’apprendre:",
+            "answers": "de chaque situation de vie que vous traversez, qu’il s’agisse d’échec, de réussite ou de tout obstacle qui se mettrait en travers de votre route. <score: 8>|principalement pendant la jeunesse, à l’école, avec les professeurs. <score: 4>|beaucoup mieux lorsque l’on est seul. <score: 6>|en échangeant avec les autres. <score: 8>",
             "comments": "Cette réponse montre une grande ouverture à l'apprentissage continu et une capacité à tirer des leçons de toutes les expériences.|Cette réponse indique une vision plus traditionnelle de l'apprentissage, centrée sur l'éducation formelle.|Cette réponse montre une préférence pour l'apprentissage autonome, ce qui peut être efficace mais parfois limité.|Cette réponse montre une reconnaissance de l'importance de l'apprentissage collaboratif et des échanges.",
             "softskill": "learning-ability"
         },
         "question23": {
-            "question": "Lorsqu'une nouvelle technologie ou méthode de travail apparaît dans votre domaine, vous :",
+            "question": "Lorsqu'une nouvelle technologie ou méthode de travail apparaît dans votre domaine, vous:",
             "answers": "vous empressez de l'apprendre et de l'intégrer à votre travail. <score: 8>|prenez le temps d'évaluer son utilité avant de décider de l'apprendre. <score: 6>|attendez de voir si elle devient un standard avant de l'apprendre. <score: 4>|préférez continuer avec les méthodes que vous connaissez bien. <score: 2>",
             "comments": "Cette réponse montre une grande capacité d'adaptation et une volonté d'apprentissage continu.|Cette réponse indique une approche réfléchie, équilibrant innovation et efficacité.|Cette réponse montre une attitude prudente, ce qui peut parfois retarder l'adoption de nouvelles compétences.|Cette réponse indique une résistance au changement, limitant le potentiel de développement.",
             "softskill": "learning-ability"
         },
         "question24": {
-            "question": "Quand vous faites face à une difficulté dans votre travail, vous :",
+            "question": "Quand vous faites face à une difficulté dans votre travail, vous:",
             "answers": "cherchez immédiatement des ressources et des formations pour surmonter la difficulté. <score: 8>|prenez le temps de réfléchir et d'expérimenter des solutions par vous-même. <score: 6>|demandez de l'aide à un collègue ou à un supérieur. <score: 4>|tentez de contourner la difficulté sans vraiment la résoudre. <score: 2>",
             "comments": "Cette réponse montre une proactivité et une volonté d'apprendre pour résoudre les problèmes.|Cette réponse indique une capacité à analyser et résoudre les problèmes de manière autonome.|Cette réponse montre une reconnaissance de l'importance de la collaboration pour surmonter les difficultés.|Cette réponse indique une tendance à éviter les problèmes plutôt qu'à les résoudre de manière constructive.",
             "softskill": "learning-ability"
         },
         "question25": {
-            "question": "En matière d’organisation, vous avez plutôt tendance à :",
-            "answers": "être très bien organisé ; <score: 8>|avoir des difficultés à gérer vos priorités ; <score: 4>|vouloir faire plusieurs choses en même temps ; <score: 6>|rapidement paniquer. <score: 2>",
+            "question": "En matière d’organisation, vous avez plutôt tendance à:",
+            "answers": "être très bien organisé. <score: 8>|avoir des difficultés à gérer vos priorités. <score: 4>|vouloir faire plusieurs choses en même temps. <score: 6>|rapidement paniquer. <score: 2>",
             "comments": "Cette réponse montre une excellente capacité d'organisation et de gestion du temps.|Cette réponse indique une difficulté à prioriser les tâches, ce qui peut entraîner des retards.|Cette réponse montre une tendance à se disperser, ce qui peut affecter l'efficacité.|Cette réponse indique une réaction de stress face à l'organisation, ce qui peut nuire à la productivité.",
             "softskill": "organization"
         },
         "question26": {
-            "question": "Quand vous avez plusieurs projets à gérer, vous :",
+            "question": "Quand vous avez plusieurs projets à gérer, vous:",
             "answers": "élaborez un plan détaillé et vous vous y tenez. <score: 8>|prenez chaque jour comme il vient et gérez les priorités au fur et à mesure. <score: 6>|demandez de l'aide pour organiser votre travail. <score: 4>|avez tendance à vous sentir dépassé et à procrastiner. <score: 2>",
             "comments": "Cette réponse montre une excellente capacité à planifier et à organiser.|Cette réponse indique une approche flexible, mais qui peut parfois manquer de structure.|Cette réponse montre une reconnaissance de l'importance de l'aide extérieure pour l'organisation.|Cette réponse indique une difficulté à gérer le stress lié à l'organisation, ce qui peut affecter la productivité.",
             "softskill": "organization"
         },
         "question27": {
-            "question": "Quand vous devez respecter une échéance importante, vous :",
+            "question": "Quand vous devez respecter une échéance importante, vous:",
             "answers": "commencez à travailler bien en avance pour être sûr de finir à temps. <score: 8>|faites un planning et essayez de le suivre. <score: 6>|travaillez souvent au dernier moment car vous vous sentez plus productif sous pression. <score: 4>|avez tendance à être en retard malgré vos efforts pour vous organiser. <score: 2>",
             "comments": "Cette réponse montre une capacité à anticiper et à gérer les échéances efficacement.|Cette réponse indique une capacité à planifier, mais avec une certaine flexibilité.|Cette réponse montre une tendance à procrastiner, mais avec une productivité sous pression.|Cette réponse indique une difficulté à respecter les délais, ce qui peut nuire à la performance.",
             "softskill": "organization"
@@ -175,5 +175,6 @@
         "title": "Résultats",
         "overallScore": "Note globale"
     },
-    "selectAnswerAlert": "Veuillez sélectionner une réponse avant de passer à la question suivante."
+    "selectAnswerAlert": "Veuillez sélectionner une réponse avant de passer à la question suivante.",
+    "restart":"Recommencer"
 }

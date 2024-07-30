@@ -19,7 +19,7 @@ const BlueDarkButton = ({
     <Link
       to={link}
       onClick={onClick}
-      className={`bg-dark-blue rounded-lg px-4 py-2 text-white font-semibold flex items-center gap-x-4 ${addStyles}`}
+      className={`bg-dark-blue hover:bg-dark-blue/90 duration-300 rounded-lg px-4 py-2 text-white font-semibold flex items-center gap-x-4 ${addStyles}`}
     >
       {btnType === "prev" && ""}
       {btnType === "next" && t("button.next")}

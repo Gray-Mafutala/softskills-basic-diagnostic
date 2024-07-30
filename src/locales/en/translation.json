@@ -173,5 +173,6 @@
         "title": "Results",
         "overallScore": "Overall score"
     },
-    "selectAnswerAlert": "Please select an answer before moving to the next question."
+    "selectAnswerAlert": "Please select an answer before moving to the next question.",
+    "restart": "Restart"
 }
